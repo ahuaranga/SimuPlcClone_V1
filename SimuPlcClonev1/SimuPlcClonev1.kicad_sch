@@ -137,7 +137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 55.88 0)
+		(at 82.55 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -146,7 +146,7 @@
 		(fields_autoplaced yes)
 		(uuid "366ec6a1-532a-4ad3-bf9e-ed1c5beb3f64")
 		(property "Reference" "R1"
-			(at 120.65 54.6099 0)
+			(at 85.09 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,7 +155,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 120.65 57.1499 0)
+			(at 85.09 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,7 +164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.332 55.88 90)
+			(at 80.772 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,7 +173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 55.88 0)
+			(at 82.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,7 +182,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 55.88 0)
+			(at 82.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +200,286 @@
 			(project ""
 				(path "/9554bc7d-464a-41dc-8945-3da7c192c12a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59945e9d-efac-4241-b7ae-84b424679b68")
+		(property "Reference" "R?"
+			(at 113.03 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 113.03 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.712 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3df80c3-e12d-4768-be4d-4c953c58569a")
+		)
+		(pin "1"
+			(uuid "e6769d75-1e34-457e-92bd-03ad1ad67fe8")
+		)
+		(instances
+			(project "SimuPlcClonev1"
+				(path "/9554bc7d-464a-41dc-8945-3da7c192c12a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ca32420-67cd-46c8-a925-65ac40c770af")
+		(property "Reference" "R?"
+			(at 97.79 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 97.79 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.472 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb01a2ec-49c7-421a-bf08-0c3b98beee00")
+		)
+		(pin "1"
+			(uuid "3d79927d-ed92-4c2b-8ec5-240f366565ef")
+		)
+		(instances
+			(project "SimuPlcClonev1"
+				(path "/9554bc7d-464a-41dc-8945-3da7c192c12a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89f1f94a-1723-4026-9482-2a88ba1ff820")
+		(property "Reference" "R?"
+			(at 139.7 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 139.7 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dea8b44-347f-4c1a-b511-a4ea434542e8")
+		)
+		(pin "1"
+			(uuid "b1d36f20-c75d-47f3-af5b-7363c34e5a39")
+		)
+		(instances
+			(project "SimuPlcClonev1"
+				(path "/9554bc7d-464a-41dc-8945-3da7c192c12a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be9bf60-1fe9-495b-8657-606f077b4edf")
+		(property "Reference" "R?"
+			(at 127 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 127 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.682 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11f03f58-5829-4042-8d4a-e1a1e0ae8c01")
+		)
+		(pin "1"
+			(uuid "e59809c3-dd6b-4268-b76b-50f8f1a4ff88")
+		)
+		(instances
+			(project "SimuPlcClonev1"
+				(path "/9554bc7d-464a-41dc-8945-3da7c192c12a"
+					(reference "R?")
 					(unit 1)
 				)
 			)
