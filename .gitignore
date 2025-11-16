@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# KiCad 6/7/8 lock files
+*.lck
+
+# KiCad backup files
+*~.kicad_pcb-bak
+*~.kicad_sch-bak
+*~.bak
+
+# KiCad autosave
+*.backup.kicad_sch
+*.backup.kicad_pcb
+
+# KiCad cache
+*.kicad_prl
+fp-info-cache
+sym-lib-table
+
+# Temporary generated files
+*.tmp
+*.swp
+
+# KiCad project specific
+.kicad_**
+*.xml
