@@ -137,6 +137,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 175.26 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22862183-6f10-4d46-ae5c-b579d5de62a3")
+		(property "Reference" "R?"
+			(at 177.8 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 177.8 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.482 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77739c59-e5db-49db-982b-912be966a100")
+		)
+		(pin "1"
+			(uuid "c1168560-2315-49d2-a8de-5d0f348974b6")
+		)
+		(instances
+			(project "SimuPlcClonev1"
+				(path "/9554bc7d-464a-41dc-8945-3da7c192c12a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 82.55 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -475,6 +545,76 @@
 		)
 		(pin "1"
 			(uuid "e59809c3-dd6b-4268-b76b-50f8f1a4ff88")
+		)
+		(instances
+			(project "SimuPlcClonev1"
+				(path "/9554bc7d-464a-41dc-8945-3da7c192c12a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a67e549f-597a-4358-822f-e8d0e7403082")
+		(property "Reference" "R?"
+			(at 200.66 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.342 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88d9056f-373c-40d2-9ab2-4d49ec2d70d9")
+		)
+		(pin "1"
+			(uuid "51913241-f5b7-4130-9c16-4e1fb571776e")
 		)
 		(instances
 			(project "SimuPlcClonev1"
